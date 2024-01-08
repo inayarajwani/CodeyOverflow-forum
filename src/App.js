@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import React from 'react';
 import {comments} from './commentData';
+import Card from './Card';
 import './style.css';
 
 //returning instance of Card component for every comment in commentData
