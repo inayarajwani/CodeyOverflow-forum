@@ -1,9 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
+import {createRoot} from 'react-dom/client';
 import App from './App';
-import reportWebVitals from './reportWebVitals'; 
 
-createRoot(
-  document.getElementById('app')
-).render(<App />)
+createRoot(document.getElementById('app')).render(<App />);
